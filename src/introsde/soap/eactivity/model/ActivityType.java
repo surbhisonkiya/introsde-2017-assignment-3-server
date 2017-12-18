@@ -4,10 +4,6 @@ import java.io.Serializable;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonRootName;
-import com.fasterxml.jackson.annotation.JsonValue;
-
 @XmlRootElement(name="activity_type")
 public enum ActivityType implements Serializable{
 	SPORT("Sport"),
@@ -22,7 +18,7 @@ public enum ActivityType implements Serializable{
 		this.activityType = activityType;
 	}
 	
-	@JsonValue
+
 	public String getActivityType() {
 		return activityType;
 	}
