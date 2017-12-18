@@ -27,16 +27,27 @@ Below are the list of tasks that are implemented:
 Using JAX-WS, implement CRUD services for the following model including the following operations:
 
     Method #1: readPersonList() => List<Person> | should list all the people in the database (all information related to each person) in your database.
+    
     Method #2: readPerson(Long id) => Person | should give all the Personal information of one Person identified by {id}.
+    
     Method #3: updatePerson(Person p) => Person | should update the Personal information of the Person identified by {id} (e.g., only the Person's information)
+    
     Method #4: createPerson(Person p) => Person | should create a new Person and return the newly created Person with its assigned id (if a preference is included, create also those values for the new Person).
+    
     Method #5: deletePerson(Long id) | should delete the Person identified by {id} from the system
+    
     Method #6: readPersonPreferences(Long id, String activity_type) => List<Preference> | should return the list of values of {activity_type} (e.g. sport) for a Person identified by {id}
+    
     Method #7: readPreferences() => List<Preferences> | should return the list of all preferences
+    
     Method #8: readPersonPreferences(Long id, Long activity_id) => Preference | should return the value identified by {activity_id} for a Person identified by {id}
+    
     Method #9: savePersonPreferences(Long id, Activity activity) | should save a new activity object {activity} of a Person identified by {id}
+    
     Method #10: updatePersonPreferences(Long id, Activity activity) => Preference | should update the activity identified with {activity.id}, related to the Person identified by {id}
+    
     Method #11 (Extra): evaluatePersonPreferences(Long id, Activity activity, int value) => Preference | should update the activity identified with {activity.id}, related to the Person identified by {id} with the value that define a specific value of preferences (e.g. 4 out of 5, or 8 out of 10).
+    
     Method #12 (Extra): getBestPersonPreference(Long id) => List<Preference> | should  return the best preference (or preferences if there are more) of the Person identified by {id}  from his/her list of preferences.
 
 Execution:
