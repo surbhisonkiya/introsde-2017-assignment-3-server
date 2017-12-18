@@ -46,9 +46,9 @@ Using JAX-WS, implement CRUD services for the following model including the foll
     
     Method #10: updatePersonPreferences(Long id, Activity activity) => Preference | should update the activity identified with {activity.id}, related to the Person identified by {id}
     
-    Method #11 (Extra): evaluatePersonPreferences(Long id, Activity activity, int value) => Preference | should update the activity identified with {activity.id}, related to the Person identified by {id} with the value that define a specific value of preferences (e.g. 4 out of 5, or 8 out of 10).
+    Method #11: evaluatePersonPreferences(Long id, Activity activity, int value) => Preference | should update the activity identified with {activity.id}, related to the Person identified by {id} with the value that define a specific value of preferences (e.g. 4 out of 5, or 8 out of 10).
     
-    Method #12 (Extra): getBestPersonPreference(Long id) => List<Preference> | should  return the best preference (or preferences if there are more) of the Person identified by {id}  from his/her list of preferences.
+    Method #12: getBestPersonPreference(Long id) => List<Preference> | should  return the best preference (or preferences if there are more) of the Person identified by {id}  from his/her list of preferences.
 
 Execution:
 
