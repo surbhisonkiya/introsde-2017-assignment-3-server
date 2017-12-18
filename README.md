@@ -18,7 +18,7 @@ This project provides a system to the University to understand the preferences o
 
 About the code:
 
-I have used SQLite database (name of the database "activitystudentDB"). Person and Activity tables are implemented through Java Persistence API. In src folder, Person.java and Activity.java implements these tables respectively. Activity types is implemented in an enum class. Hence, it is not stored as a table in the database. If the code is run locally, using PeopleClient.java class, it implements the server on localhost port:6900.
+I have used SQLite database (name of the database "activitystudentDB"). Person and Activity tables are implemented through Java Persistence API. In src folder, Person.java and Activity.java implements these tables respectively. Activity types is implemented in an enum class. Hence, it is not stored as a table in the database. If the code is run locally, using PeoplePublisher.java class, it implements the server on localhost port:6900.
 
 Below are the list of tasks that are implemented:
 
