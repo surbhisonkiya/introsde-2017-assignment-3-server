@@ -75,11 +75,6 @@ public interface People {
 	@WebMethod(operationName="evaluatePersonPreferences")
 	@WebResult(name="evaluatedActivity") 
 	public Activity evaluatePersonPreferences(int personid, Activity activity, int value);
-	/*
-	// Method #12
-	@WebMethod(operationName="getBestPersonPreference")
-	@WebResult(name="bestPreference") 
-	public List<Activity> getBestPersonPreference(int personid);
-*/
+	
 
 }

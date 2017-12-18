@@ -14,7 +14,7 @@ public class PeoplePublisher {
 
     public static String getEndpointURL() throws UnknownHostException {
 
-    	String port_value = "6901";
+    	String port_value = "6900";
         if (String.valueOf(System.getenv("PORT")) != "null"){
             port_value = String.valueOf(System.getenv("PORT"));
         }

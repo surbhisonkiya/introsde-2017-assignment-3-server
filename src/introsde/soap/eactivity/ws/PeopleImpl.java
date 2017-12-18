@@ -97,11 +97,5 @@ public class PeopleImpl implements People {
 		Activity updatedA = activity.updateActivity(activity1);
 		return updatedA;
 	}
-	/*
-	@Override
-	public List<Activity> getBestPersonPreference(int personid){
-		Person person = Person.getPersonById(personid);
-		return person.getBestPreferences();
-	}
-*/
+
 }

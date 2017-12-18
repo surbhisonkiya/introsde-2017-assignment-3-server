@@ -211,13 +211,7 @@ public class Person implements Serializable {
 	
 	public Activity getActivitiesWithId(int activityId) {
 		List<Activity> activities = getActivityPreferences();	    
-		/*  for (Activity activity : activities) {
-	    	
-	    	if (activity.getactivityId()==activityId) {
-	    		System.out.println("Person class is here");
-	    		return activity;
-	    	}
-	    }*/
+
 	   return Activity.getActivityById(activityId);
 	}
 
@@ -238,18 +232,5 @@ public class Person implements Serializable {
 	}
 
 
-/*	public List<Activity> getBestPreferences() {
-		List<Activity> activities = getActivityPreferences();
-	    Stack<Activity> stack = new Stack();
-	    stack.push(activities.get(0));
-	    for (int i =1; i< activities.size();i++) {
-	    	if (activities.get(i).getRating() >= stack.peek().getRating()){
-	    		stack.pop();
-	    		stack.push(activities.get(i));
-	    	}
-	    }
-	   return stack;
-	}
-*/
 }
 
